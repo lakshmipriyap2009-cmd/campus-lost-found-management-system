@@ -1,0 +1,30 @@
+# Local database settings and environment files
+/config/db.local.php
+.env
+.env.*
+**/.env
+**/.env.*
+!.env.example
+!**/.env.example
+
+# User-uploaded files
+/public/uploads/*
+!/public/uploads/.gitkeep
+!/public/uploads/placeholder.png
+!/public/uploads/.htaccess
+/uploads/*
+!/uploads/.gitkeep
+!/uploads/placeholder.png
+!/uploads/.htaccess
+
+# Editor and operating-system files
+.vscode/
+.idea/
+Thumbs.db
+.DS_Store
+
+# Logs, archives, backups, and temporary files
+*.log
+*.zip
+*.bak
+*.tmp
